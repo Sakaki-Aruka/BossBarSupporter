@@ -1,0 +1,14 @@
+name: BarSupporter
+version: '${project.version}'
+main: barsupporter.barsupporter.BarSupporter
+api-version: 1.19
+authors: [ SakakiAruka ]
+description: to bedrock version player
+website: https://github.com/Sakaki-Aruka
+commands:
+  forceremovebar:
+    permission: barsupporter.op
+
+permissions:
+  barsupporter.op:
+    default: op
